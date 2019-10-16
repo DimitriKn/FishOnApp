@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PostComponent } from './post.component';
+import { WatersPostPageComponent } from './waters-post-page.component';
 
-describe('PostComponent', () => {
-  let component: PostComponent;
-  let fixture: ComponentFixture<PostComponent>;
+describe('WatersPostPageComponent', () => {
+  let component: WatersPostPageComponent;
+  let fixture: ComponentFixture<WatersPostPageComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PostComponent ]
+      declarations: [ WatersPostPageComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PostComponent);
+    fixture = TestBed.createComponent(WatersPostPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,0 +1,26 @@
+.bg-custom{
+ background:  transparent linear-gradient(180deg, #E5E5E58F 0%, #C6D3D6AF 29%, #BCCDD1B9 50%, #A5CBAC 99%, #79A5B1 100%) 0% 0% no-repeat padding-box;
+}
+.navbar-light .navbar-toggler {
+  color: rgba(0,0,0,.5);
+  border-color: rgba(0,0,0,0);
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: .0rem .5rem;
+}
+.navbar-toggler {
+  padding: .0rem .0rem;
+}
+footer {
+    height: 65px ;
+    background: transparent linear-gradient(180deg, #E5E5E58F 0%, #C6D3D6AF 29%, #BCCDD1B9 50%, #A5CBAC 99%, #79A5B1 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+  }
+
+
